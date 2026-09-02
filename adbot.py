@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 # تنظیمات پیش‌فرض
 CONFIG_FILE = "bot_config.json"
 DEFAULT_CONFIG = {
-    "host_usernames": ["ad0ri"],
-    "admin_usernames": ["ad0ri"],
+    "host_usernames": ["roz.ihank"],
+    "admin_usernames": ["roz.ihank"],
     "vip_usernames": [],
     "banned_users": [],
     "teleport_locations": {
@@ -33,9 +33,9 @@ DEFAULT_CONFIG = {
         "dj": {"x": 9.5, "y": 10.75, "z": 10.5}
     },
     "language": "fa",
-    "welcome_message": "✨ 🌟 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 {username} ❤️ 𝐆𝐥𝐚𝐝 𝐭𝐨 𝐡𝐚𝐯𝐞 𝐲𝐨𝐮 𝐡𝐞𝐫𝐞!\n🕺 𝐔𝐬𝐞 𝐍𝐮𝐦𝐛𝐞𝐫𝐬 (𝟏-𝟐𝟒𝟖) 𝐨𝐫 𝐄𝐦𝐨𝐭𝐞 𝐍𝐚𝐦𝐞𝐬 𝐭𝐨 𝐝𝐚𝐧𝐜𝐞!\n👑 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐰𝐚𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 & 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 @𝐚𝐝𝟎𝐫𝐢 😉\n📺 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐨𝐮𝐫 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: @𝐚𝐝𝐨𝐫𝐢_𝐡𝐢𝐭𝐨𝐭𝐬𝐨 🚀",
+    "welcome_message": "✨ 🌟 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 {username} ❤️ 𝐆𝐥𝐚𝐝 𝐭𝐨 𝐡𝐚𝐯𝐞 𝐲𝐨𝐮 𝐡𝐞𝐫𝐞!\n🕺 𝐔𝐬𝐞 𝐍𝐮𝐦𝐛𝐞𝐫𝐬 (𝟏-𝟐𝟒𝟖) 𝐨𝐫 𝐄𝐦𝐨𝐭𝐞 𝐍𝐚𝐦𝐞𝐬 𝐭𝐨 𝐝𝐚𝐧𝐜𝐞!\n👑 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐰𝐚𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 By @77.77.78 & @roz.ihank 😉\n📺",
     "announcement_interval": 300,
-    "announcement_message": "برای اجاره بات به آیدی @ad0ri پیام دهید!"
+    "announcement_message": "برای اجاره بات به آیدی @77.77.78 پیام دهید!"
 }
 
 class AdvancedBot(BaseBot):
@@ -1093,7 +1093,7 @@ class AdvancedBot(BaseBot):
         messages = {
             "fa": {
                 "welcome": self.config["welcome_message"],
-                "invalid_command": "❌ دستور نامعلوم! برای دیدن دستورات بات !help استفاده کنید یا به @ad0ri پیام بدید.",
+                "invalid_command": "❌ دستور نامعلوم! برای دیدن دستورات بات !help استفاده کنید یا به @77.77.78 پیام بدید.",
                 "no_permission": "فقط ادمین‌ها می‌توانند از این دستور استفاده کنند!",
                 "user_not_found": "کاربر {username} آنلاین نیست.",
                 "invalid_format": "فرمت نادرست: {format}",
